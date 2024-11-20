@@ -140,3 +140,13 @@ export const metadata: Metadata = {
   │               └── page.tsx
   │
   ```
+
+### 병렬적 API 호출
+
+- 방식
+
+  1. Promise.all 사용
+  2. Suspense 사용
+
+- 장점
+  - 페이지 일부만 로딩 컴포넌트가 대체될 수 있음
